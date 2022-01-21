@@ -1,6 +1,6 @@
 const button = document.querySelector('.btn-fixed')
 
-window.addEventListener('scroll', function (event) {
+window.addEventListener('scroll', function () {
   if (window.scrollY < 100) {
     button.classList.remove('visible')
   } else {
