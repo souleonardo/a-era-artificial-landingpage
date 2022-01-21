@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 190px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  box-shadow: rosybrown 1px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/*Back-to-tp-button*/
+.btn-fixed{
+  position:fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(9, 9, 9);
+  padding: 8px 30px;
+  border-radius: 15px; 
+}
+.btn-fixed.visible{
+  visibility: visible;
+}
+  /*START Section 1*/
+.section-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.section-1 h2{
+  padding-top: 20px;
+  display: flex;
+  font-size: 24px; 
+}
+
+.section-1 a{
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(69, 184, 69);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 15px;
+  
+}
+
+.section-1 p{
+  text-align: center;
+  line-height: 28px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/*START Section 2*/
+.section-2{
+  border-top: #d5d5d5 solid;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.section-2 p{
+  text-align: center;
+  line-height: 28px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/*START Section 3*/
+.section-3{
+  border-top: #d5d5d5 solid;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.section-3 p{
+  text-align: center;
+  line-height: 28px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/*START Section 4*/
+.section-4{
+  border-top: #d5d5d5 solid;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.section-4 p{
+  text-align: center;
+  line-height: 28px;
+  max-width: 930px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.section-4 a{
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(69, 184, 69);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
