@@ -1,4 +1,4 @@
-# HomePage of book "A Era Artificial" 
+# HomePage of book "A Era Artificial 📖" 
 ## Used Tecnologies
 <ul>
   <li>HTML</>
